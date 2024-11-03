@@ -1,3 +1,15 @@
+"use strict";
+exports.id = 1;
+exports.ids = [1];
+exports.modules = {
+
+/***/ 6:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ stripJsonComments)
+/* harmony export */ });
 const singleComment = Symbol('singleComment');
 const multiComment = Symbol('multiComment');
 
@@ -16,7 +28,7 @@ const isEscaped = (jsonString, quotePosition) => {
 	return Boolean(backslashCount % 2);
 };
 
-export default function stripJsonComments(jsonString, {whitespace = true, trailingCommas = false} = {}) {
+function stripJsonComments(jsonString, {whitespace = true, trailingCommas = false} = {}) {
 	if (typeof jsonString !== 'string') {
 		throw new TypeError(`Expected argument \`jsonString\` to be a \`string\`, got \`${typeof jsonString}\``);
 	}
@@ -105,3 +117,10 @@ export default function stripJsonComments(jsonString, {whitespace = true, traili
 
 	return result + buffer + (isInsideComment ? strip(jsonString.slice(offset)) : jsonString.slice(offset));
 }
+
+
+/***/ })
+
+};
+;
+//# sourceMappingURL=1.extension.js.map

@@ -2,7 +2,7 @@
   "name": "vscode-vim-preview",
   "displayName": "VSCode Vim Preview",
   "description": "Real-time preview of vim keybinding commands with interactive cheat sheet functionality",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "publisher": "vscode-vim-preview",
   "license": "MIT",
   "engines": {
@@ -72,6 +72,9 @@
     "webpack-cli": "^5.1.4",
     "@vscode/test-cli": "^0.0.10",
     "@vscode/test-electron": "^2.4.1"
+  },
+  "dependencies": {
+    "strip-json-comments": "^5.0.1"
   },
   "repository": {
     "type": "git",

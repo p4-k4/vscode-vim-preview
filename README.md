@@ -4,9 +4,8 @@ A Visual Studio Code extension that provides a real-time preview of vim keybindi
 
 ## Features
 
-- 🔍 Real-time preview of available vim commands
+- 🔍 Real-time preview of available vim commands and VSCODE keybinds
 - ⌨️ User-configurable trigger key
-- 🎯 Shows both custom and default vim bindings
 - ⚡ Live filtering as you type
 - 📝 Support for custom binding descriptions
 - 🔎 Search by keys, command IDs, or descriptions

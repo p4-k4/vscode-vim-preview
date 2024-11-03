@@ -2,6 +2,14 @@
 
 All notable changes to the "VSCode Vim Preview" extension will be documented in this file.
 
+## [0.0.9] - 2024
+
+### Added
+- Support for VSCode keybindings in addition to Vim keybindings
+
+### Changed
+- Removed extension setting default bindings
+
 ## [0.0.8] - 2024
 
 ### Changed
